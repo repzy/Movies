@@ -15,6 +15,7 @@
     include "Entities/movie.php";
     include "Entities/star.php";
     include "Entities/file.php";
+    var_dump($_POST);
     if (key($_POST) !== null) {
         include "Views/".key($_POST['action']).".php";
     } else {

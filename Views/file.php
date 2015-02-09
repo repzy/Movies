@@ -4,6 +4,7 @@ include "Views/form.html";?>
     <input type="file" name="file"><br>
     <input type="submit" name="action[file]" value="Download">
 </form>
+
 <?php
 
 if (sizeof($_FILES) !== 0) {
